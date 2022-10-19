@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .navbar{
+    background-color: rgb(8, 62, 117);
+    border-bottom: 1px solid rgb(14, 13, 13);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 20px 0;
+    font-weight: 700;
+    letter-spacing: 0.02rem;
+  }
+  .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav .nav-link:hover{
+    color:rgb(199, 70, 169)!important;
+  }
+  .carousel-inner{
+    margin-top: 10px;
+    height:500px;
+    width: 500px;
+    
+  }
+  .image img{
+    margin-left: 500px;
+  
+  }
+  .carousel-item img{
+    height: 600px;
+    width: 500px;
+  }
+  /* .myview{
+    display: flex !important;
+    justify-content: space-between !important;
+  } */
+  
+  .heading {
+    text-align: center;
+  }
+  .explore-img img{
+    width: 100% !important;
+    height: 400px !important;
+  }
+  .my-image img{
+    width: 200px !important;
+    height: 200px !important;
+    border: 2px solid rgb(206, 158, 54);
+    border-radius: 0.9rem;
+    box-shadow: rgb(192, 150, 61);
+    padding: 0.3rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  hr{
+    width: 100px !important;
+    padding: 3px;
+    color: rgb(218, 5, 5)  !important;
+  }
+  .heading hr{
+    margin: 0 auto;
+  }
+  .content button{
+    color: brown;
+  }
+  .accordion-item{
+    border: 1px solid saddlebrown !important;
+  }
+  .in-icons i{
+    font-size: 35px;
+  }
+  .my-icons i{
+    display: flex;
+    margin: 0 0.2rem !important;
+  }
+  .foot{
+    background-color: rgb(6, 116, 150);
+    height: 50px;
+    /* align-items: center !important; */
+    justify-items: center;
+    color:azure !important;
+    border: 1px solid rgb(14, 13, 13);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .mybar{
+    position: relative;
+    background-color:rgb(233, 182, 204);
+    color: black;
+    /* animation: animate 3s 1 reverse backwards; */
+    /* animation: animate 4s 1s 2s 1 reverse backwards; */
+  }
+  /* @keyframes animate {
+    from{
+      top: 0;
+      background-color: aliceblue;
+    }
+    to{
+      top: 500px;
+      background-color: black;
+    }
+    
+  } */
+  
+   @media(max-width:320px){
+    /* .carousel-item img{
+      height: 400px;
+    }  */
+   .mybar{
+      width:400px;
+    }
+  }
+  
+    @media(max-width:375px){
+    .mybar{
+      width: 400px;
+    }
+   }
+   @media(max-width:425px){
+    .mybar{
+      width: 500px;
+    }
+  }
+    @media(max-width:768px){
+    .mybar{
+      width: 100%;
+    } } 
